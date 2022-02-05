@@ -1,0 +1,12 @@
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';
+
+.card-img-top {
+  cursor: pointer;
+}
+
+#back-to-top {
+  transition: all 0.15s ease-in-out;
+  &:hover {
+    background-color: #0b5ed7;
+  }
+}
